@@ -2,7 +2,7 @@
 
 Agent-derived literature dataset for high-entropy alloy and multi-principal-element alloy electrocatalysts in fuel-cell-relevant reactions.
 
-This repository accompanies the study **"Agent-driven discovery of advanced high-entropy alloy electrocatalysts for next-generation fuel cells"**. It provides the curated catalyst dataset, intermediate literature-mining records, query history, and supplementary material needed to inspect the search and extraction workflow.
+This repository accompanies the study **"Agent-driven discovery of advanced high-entropy alloy electrocatalysts for next-generation fuel cells"**. It provides the curated catalyst dataset, intermediate literature-mining records, and query history needed to inspect the search and extraction workflow.
 
 ## Repository Contents
 
@@ -11,7 +11,6 @@ This repository accompanies the study **"Agent-driven discovery of advanced high
 | `HEA_FUELCELL.csv` | Final curated dataset of 104 HEA/MPEA fuel-cell electrocatalyst records. |
 | `processed_papers_with_titles.csv` | Candidate-paper metadata retained during literature mining, including paper identifiers and titles. |
 | `all_query_history.csv` | Complete generated-query history from the Agent literature-search stage. |
-| `SM.md` | Supplementary material documenting audit results, interpretation, prompts, schema, and extraction protocol. |
 
 ## Dataset Scope
 
@@ -34,7 +33,7 @@ The dataset was built with a staged Agent extraction workflow:
 3. **Structured feature extraction** using a fixed JSON schema with explicit `null` values for missing or non-applicable fields.
 4. **Manual audit and correction** for records affecting reaction assignment, composition parsing, or quantitative performance analysis.
 
-The supplementary material (`SM.md`) documents the prompts, fixed schema, parser traceability, and quality-control protocol.
+The supplementary material for the project documents the prompts, fixed schema, parser traceability, and quality-control protocol.
 
 ## Quality Control
 
