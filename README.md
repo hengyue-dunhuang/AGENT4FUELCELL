@@ -35,19 +35,6 @@ The dataset was built with a staged Agent extraction workflow:
 
 The supplementary material for the project documents the prompts, fixed schema, parser traceability, and quality-control protocol.
 
-## Quality Control
-
-A random 30-record audit was checked manually against the original articles. The audit reported:
-
-| Metric | Value |
-| --- | ---: |
-| Precision | 0.9703 |
-| Recall | 0.9423 |
-| F1 score | 0.9561 |
-| Field-level extraction accuracy | 0.9159 |
-
-The main residual error sources were incomplete durability descriptors, ambiguity in activity normalization, and missing details for multi-step synthesis routes. These cases were corrected where they affected the final analysis.
-
 ## Suggested Use
 
 The repository is intended for:
